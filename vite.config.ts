@@ -14,6 +14,22 @@ export default defineConfig(async () => ({
 				url.fileURLToPath(new URL(".", import.meta.url)),
 				"/src",
 			),
+			"@/lib": path.resolve(
+				url.fileURLToPath(new URL(".", import.meta.url)),
+				"/src/lib",
+			),
+			"@/hooks": path.resolve(
+				url.fileURLToPath(new URL(".", import.meta.url)),
+				"/src/hooks",
+			),
+			"@/registry": path.resolve(
+				url.fileURLToPath(new URL(".", import.meta.url)),
+				"/src/registry",
+			),
+			"@/components": path.resolve(
+				url.fileURLToPath(new URL(".", import.meta.url)),
+				"/src/components",
+			),
 		},
 	},
 

@@ -1,3 +1,4 @@
+import { ThemeCustomizer } from "@/components/theme-customizer"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { invoke } from "@tauri-apps/api/core"
@@ -61,6 +62,8 @@ function App() {
 					</>
 				)}
 			</div>
+
+			<ThemeCustomizer />
 
 			<div className="container">
 				<h1 className="text-red-300 dark:text-red-900">Welcome to 1Tauri!</h1>
