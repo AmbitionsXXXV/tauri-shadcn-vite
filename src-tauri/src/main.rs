@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    tauri2_learn_lib::run()
+    shadcn_tauri_lib::run()
 }
